@@ -1,7 +1,7 @@
 # MyDream API (demo)
 
 API demo em **.NET 10** simulando o domínio de **locação de motos** (estilo MyDream — motos
-para entregadores/motoristas de app), pensada para uma avaliação técnica.
+para entregadores/motoristas de app).
 
 ## Domínio (sugestão, ajuste como quiser)
 
@@ -11,7 +11,7 @@ para entregadores/motoristas de app), pensada para uma avaliação técnica.
 
 ## Por que só dois endpoints
 
-Como pedido, o escopo é enxuto — mas cada endpoint carrega um requisito técnico diferente: 
+Escopo é enxuto — mas cada endpoint carrega um requisito técnico diferente: 
 
 | Endpoint | Verbo | O que demonstra |
 |---|---|---|
