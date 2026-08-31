@@ -48,8 +48,7 @@ Cada passo tem `ExecutarAsync` e `CompensarAsync`. Se um passo falhar, o orquest
 exemplo, se o pagamento (simulado) falhar, a moto reservada volta a "Disponivel" e a locação
 criada é removida.
 
-É uma saga **orquestrada e local** (sem message broker) — de propósito, já que o pedido foi
-"de leve". O padrão (passos + compensação) é o mesmo que se usaria numa saga coreografada
+É uma saga **orquestrada e local** (sem message broker) — de propósito, já que peguei "de leve". O padrão (passos + compensação) é o mesmo que se usaria numa saga coreografada
 com eventos entre microsserviços; aqui ele só roda dentro de um único processo/handler.
 
 Pra ver a compensação em ação, envie `"simularFalhaPagamento": true` no corpo da requisição.
@@ -86,7 +85,7 @@ dotnet run
 
 Swagger disponível em `/swagger` no ambiente de Development.
 
-## O que fica pra depois (fora do escopo combinado)
+## PENDENTE...
 
 - Deploy no GCP (Cloud Run + Cloud SQL for SQL Server, provavelmente).
 - Autenticação/autorização (hoje não há nenhuma).
